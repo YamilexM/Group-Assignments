@@ -4,9 +4,9 @@
 
 In this lab, I practiced managing user group membership in Microsoft Entra ID.
 
-Building on my previous user provisioning, licensing, and role assignment labs, I reviewed Taylor Morgan's existing group memberships and then assigned the user to an IT security group.
+Building on my previous user provisioning, licensing, and role assignment labs, I reviewed Taylor Morgan's existing group memberships, selected an IT security group, assigned the user to that group, and verified the membership afterward.
 
-The goal was to gain more hands-on experience with group-based identity management and understand how users can be organized into security groups within a cloud environment.
+The goal was to gain more hands-on experience with group-based identity management and understand how users can be organized within Microsoft Entra ID using security groups.
 
 ## Technologies Used
 
@@ -19,9 +19,10 @@ The goal was to gain more hands-on experience with group-based identity manageme
 
 - Reviewing a user's current group memberships
 - Identifying a user with no existing group memberships
-- Adding a user to an existing security group
+- Selecting an existing security group
+- Adding a user to a security group
 - Verifying the group membership after assignment
-- Reviewing the group type, membership type, and source
+- Reviewing group type, membership type, and source
 - Documenting identity administration tasks
 
 ## Step 1: Review Existing Group Memberships
@@ -32,15 +33,17 @@ Before making any changes, I confirmed that the user was not currently a member 
 
 ![No Group Memberships](images/01-no-group-memberships.png)
 
-## Step 2: Assign the User to a Security Group
+## Step 2: Select the Security Group
 
-I used the **Add memberships** option to assign Taylor Morgan to the existing **IT - Staff SecGroup** security group.
+I used the **Add memberships** option and selected **IT - Staff SecGroup** from the available groups.
 
-This allowed me to practice managing user membership within an existing Microsoft Entra security group.
+Before completing the assignment, I confirmed that the correct security group was selected for the user.
+
+![Select Security Group](images/02-select-security-group.png)
 
 ## Step 3: Verify the Group Membership
 
-After completing the assignment, I returned to Taylor Morgan's **Groups** page and confirmed that the new membership was successfully added.
+After completing the assignment, I returned to Taylor Morgan's **Groups** page and confirmed that the membership was successfully added.
 
 The group showed:
 
@@ -65,6 +68,6 @@ The group showed:
 
 This lab helped me better understand how security groups can be used to organize users within Microsoft Entra ID.
 
-I practiced reviewing a user's existing memberships, assigning the user to an appropriate security group, and verifying that the membership was successfully applied.
+I practiced reviewing a user's existing memberships, selecting the appropriate group, assigning the user to that group, and verifying that the membership was successfully applied.
 
-This also helped me see how user provisioning, licensing, role assignments, and group memberships are separate parts of managing a cloud identity.
+This also helped me understand how user provisioning, licensing, role assignments, and group memberships work together as separate parts of managing a cloud identity.
